@@ -27,12 +27,12 @@ a{
 
 button{
      text-align:right;
-     
+     padding:15px;
      margin: 10px;
      background-color: green;
      color: white;
     
-     padding: 15px;
+    
      
 
      
@@ -48,6 +48,7 @@ a{
 img{
      text-align: right;
      background: #fff;
+     padding-right: 100px;
     
 }
 .text{
