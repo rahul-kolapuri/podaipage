@@ -27,10 +27,13 @@ a{
 
 button{
      text-align:right;
-     padding:15px;
+     
      margin: 10px;
      background-color: green;
      color: white;
+     width: 100%;
+     padding: 10px;
+     font-size: 16px;
 
      
 }
@@ -39,12 +42,19 @@ a{
 }
 .container-main{
      text-align:right ;
+     max-width: 100%;
+     display: flex;
+     flex-direction: column; 
+     align-items: center;
 
 }
 img{
      text-align: right;
      background: #fff;
      padding-right: 100px;
+     max-width: 100%;
+     height: auto;
+     display: block;
 }
 .text{
      padding-left: 50px;
@@ -64,4 +74,18 @@ img{
 }
 span{
      color: rgb(65, 65, 236);
+}
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        padding: 10px;
+    }
+    h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
 }
