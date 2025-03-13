@@ -77,7 +77,7 @@ span{
 }
 @media (max-width: 768px) {
     .container {
-        flex-direction: column;
+        flex-direction: column; /* Stack elements vertically */
         padding: 10px;
     }
     h1 {
@@ -89,3 +89,13 @@ span{
         height: auto;
     }
 }
+
+.container{
+     max-width: 1200px;  /* For larger screens */
+    width: 90%; /* Allows shrinking on mobile */
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap; /* Ensures elements wrap properly */
+    justify-content: center;
+}
+
